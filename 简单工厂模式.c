@@ -69,6 +69,7 @@ int main(int argc, char** argv)
 	Car* specificCarB = carfac.createSpecificCar(BMW);
 
 	delete specificCarA; delete specificCarB;
-
+	
+	system("pause");
 	return 0;
 }
